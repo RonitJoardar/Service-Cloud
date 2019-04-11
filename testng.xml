@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" configfailurepolicy="continue">
+	<listeners>
+		<listener class-name="com.pankanis.servicecloudcrm.Listener.ExtentReporterNG"></listener>
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.pankanis.servicecloudcrm.TestScripts.TS1_OrganizationAdd" />
+			<class
+				name="com.pankanis.servicecloudcrm.TestScripts.TS2_OrganizationAddContact" />
+			<class
+				name="com.pankanis.servicecloudcrm.TestScripts.TS3_OrganizationIncident" />
+			<class
+				name="com.pankanis.servicecloudcrm.TestScripts.TS4_OrganizationTask" />
+			<class
+				name="com.pankanis.servicecloudcrm.TestScripts.TS5_OpportunitiesAdd" />
+			<class
+				name="com.pankanis.servicecloudcrm.TestScripts.TS6_OpportunitiesTask" />
+
+			<class name="com.pankanis.servicecloudcrm.TestScripts.TS9_MiscChecks" />
+			<class
+				name="com.pankanis.servicecloudcrm.TestScripts.TS7_SubscribeOrganizations" />
+			<class
+				name="com.pankanis.servicecloudcrm.TestScripts.TS8_SubscribeOpportunities" />
+		</classes>
+	</test> 
+</suite> 
